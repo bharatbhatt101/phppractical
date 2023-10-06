@@ -1,12 +1,12 @@
-<!-- Scope of variable in php -->
+<!-- Static and non static variable in php -->
 
 <html>
 <head>
     
-    <title>Variable scope in php</title>
+    <title>Static& Non static Variable scope in php</title>
 </head>
 <body>
-    <h2>Local scope of a variable</h2>
+    <h2>Static  scope of a variable</h2>
         <?php
          
          $var=25;//global scope
@@ -20,7 +20,7 @@
          
 
 ?>
-    <h2>Global scope of a variable</h2>
+    <h2>Non static  scope of a variable</h2>
     
     <?php
          
