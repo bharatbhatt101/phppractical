@@ -9,14 +9,18 @@
     <h2>Static  scope of a variable</h2>
         <?php
          
-         $var=25;//global scope
         
-       function test_lvar()
+        
+       function test_svar()
        {
-          $var=100;
-           echo  $var;
+         static  $a=0;
+           echo  $a;
+           echo "<br>";
+           $a++;
        }
-       test_lvar();
+       test_svar();
+       test_svar();
+       test_svar();
          
 
 ?>
@@ -24,18 +28,17 @@
     
     <?php
          
-         $var1=10;
-         $var2=15;
          
-         function test_gvar()
+         function test_nsvar()
          {
-            global $var1,$var2;//global keyword
-             echo  "Value of var1:$var1<br>";
-             echo  "Value of var2:$var2<br>";
-             echo  "Sum of var1 and var2:".$var1+$var2;
-
+             $a=0;
+             echo  $a;
+           echo "<br>";
+           $a++;
          }
-         test_gvar();
+         test_nsvar();
+         test_nsvar();
+         test_nsvar();
 
 ?>
 </body>
