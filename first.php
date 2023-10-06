@@ -1,5 +1,10 @@
-<!-- First program of php -->
-
+<!-- Embeded php code in html code-->
+<html>
+<head>
+    <title>Embeded php </title>
+</head>
+<body>
+    <h2>Php inside Html</h2>
 <?php
 
       echo "hello world";
@@ -7,3 +12,5 @@
 
 
 ?>
+</body>
+</html>
