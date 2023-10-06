@@ -1,16 +1,20 @@
-<!-- Embeded php code in html code-->
+<!-- Embedding php code in html code-->
 <html>
 <head>
-    <title>Embeded php </title>
+    <title>First Program</title>
 </head>
 <body>
-    <h2>Php inside Html</h2>
+    <h2>Default Syntax</h2>
 <?php
 
       echo "hello world";
-      echo "<br>Php first code";
+      echo "<br>This is the example of php code";
 
 
 ?>
+<h2>Short tags</h2>
+<input type="text" name="city" value="<?= "Ludhiana"?>">
+
+</script>
 </body>
 </html>
