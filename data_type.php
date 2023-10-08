@@ -10,7 +10,7 @@
         <?php
            $a=50;
            $b=-150;
-         echo "a=$a";
+         echo "a=$a<br>";
          echo "b=$b";
          
          ?>
@@ -21,7 +21,7 @@
            $a1=1.459;
            $b1=11.2e4;
 
-         echo "a1=$a1";
+         echo "a1=$a1<br>";
          echo "b1=$b1";
 
          ?>
@@ -36,22 +36,40 @@
           <?php
                $a3=true;
                $b3=false;
-            echo var_dump($a3);
+            echo var_dump($a3)."<br>";
             echo var_dump($b3);
 
         ?>
 
         <h2>Array</h2>
          <?php
-          echo ;
+           $var= array(1,2,3,4);
+          for($i=0;$i<count($var);$i++)
+          {
+
+            echo "index=$i value=$var[$i]";
+            echo "<br>";
+          }
           ?>
           <h2>Object</h2>
           <?php
-           echo ;
+          class message
+          {
+            
+            function disp()
+            {
+        
+              echo "Hello";
+                
+            }
+          }
+            $obj=new message;
+            $obj->disp();
            ?> 
          <h2>Null</h2>
          <?php
-          echo ;
+           $var1=null;
+          echo var_dump($var1);
           ?> 
          
 </body>
