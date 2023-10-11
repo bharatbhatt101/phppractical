@@ -74,35 +74,25 @@
 
         <h2>Increment/Decrement Operators</h2>
          <?php
-                
-            //  $j=20;
-            //  $k=15;
-            //  $l=25;
-             
-             for ($i=0; $i <2 ;++$i)
-              { 
-                  
-                  echo "Pre-increment:".$i;
-
-
-             }
-             
-             for ($j=0; $j <2 ;$j++)
-             { 
-                 
-                 echo "Post-increment:".$j;
-
-
-            }
+                $i=10;
+                $j=15;
+                $k=20;
+                $l=25;
+                 echo "Original:".$i;            
+                echo " Pre-increment:".++$i;
+                echo "<br>";   
+                 echo "Original:".$j;
+                echo " Post-increment:".$j++;
+                echo "<br>";
+                 echo "Original:".$k;
+                echo " Pre-decrement:".--$k;
+                echo "<br>";
+                 echo "Original:".$l;                
+                echo " Post-decrement:".$l--;
             
-                
-            //   echo "Post-increment:".$j++;
-            //   echo "Pre-decrement:".--$k;
-            //   echo "Post-decrement:".$l--;
-
            
           ?>
-          
+        
          
 </body>
 </html>     
