@@ -3,7 +3,7 @@
 <head>
     
     <title>Accessing  Array Element in Php</title>
-</head>
+</head>                                   
 <body>
     <h2>Using print_r() function in array</h2>
         <?php
