@@ -12,8 +12,8 @@
 
 
 ?>
-<h2>Short tags</h2>
-<input type="text" name="city" value="<?= "Ludhiana"?>">
+<!-- <h2>Short tags</h2>
+<input type="text" name="city" value="<?= "Ludhiana"?>"> -->
 
 </script>
 </body>
