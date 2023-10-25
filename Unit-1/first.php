@@ -4,7 +4,7 @@
     <title>First Program</title>
 </head>
 <body>
-    <h2>Default Syntax</h2>
+    <h2>Embedded PHP code Example</h2>
 <?php
 
       echo "hello world";
@@ -12,8 +12,7 @@
 
 
 ?>
-<!-- <h2>Short tags</h2>
-<input type="text" name="city" value="<?= "Ludhiana"?>"> -->
+
 
 </script>
 </body>

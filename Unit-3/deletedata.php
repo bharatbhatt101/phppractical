@@ -9,14 +9,14 @@
      
     <?php
         
-        $CONNECTION=mysqli_connect("localhost","root","obeygod","base6");
+        $CONNECTION=mysqli_connect("localhost","root","obeygod","detalis");
         if(!$CONNECTION)
         {
             die("Couldn't connect to server");
         }
         echo "Connected Successfully<br><br>";
          
-        $sql_query="DELETE FROM  Stud where Roll=5";
+        $sql_query="DELETE FROM  student where Roll_no=5";
         mysqli_query($CONNECTION,$sql_query);
         mysqli_close($CONNECTION);
         if(!$sql_query)
@@ -30,11 +30,3 @@
 
 </body>
 </html>
-        
-
-    
-        
-
-
-
-

@@ -9,12 +9,12 @@
      
     <?php
         
-        $CONNECTION=mysqli_connect("localhost","root");
+        $CONNECTION=mysqli_connect("localhost","root","obeygod");
         if(!$CONNECTION)
         {
             die("Couldn't connect to server");
         }
-        echo "Connected Successfully";
+        echo "Connected Successfully.";
 
     ?>
     

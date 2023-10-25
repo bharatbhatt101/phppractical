@@ -17,12 +17,11 @@
            echo  $var;
        }
        test_lvar();
-         
-
-?>
-    <h2>Global scope of a variable</h2>
+       ?>         
+      
+     <h2>Global scope of a variable</h2>
     
-    <?php
+      <?php
          
          $var1=10;
          $var2=15;
@@ -37,6 +36,6 @@
          }
          test_gvar();
 
-?>
+         ?>
 </body>
 </html>

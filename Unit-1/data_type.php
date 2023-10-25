@@ -17,76 +17,32 @@
         
         <h2>Float</h2>
         <?php
-          
-           $a1=1.459;
+          $a1=1.459;
            $b1=11.2e4;
-
          echo "a1=$a1<br>";
          echo "b1=$b1";
-
          ?>
-         
          <h2>STRING</h2>
          <?php
          $a2="Hello";
           echo "a2=$a2" ;
           ?>
-
           <h2>Boolean</h2>
           <?php
                $a3=true;
                $b3=false;
             echo var_dump($a3)."<br>";
             echo var_dump($b3);
-
-        ?>
-
-        <h2>Array</h2>
+           ?>
+          <h2>Array</h2>
          <?php
            $var= array(1,2,3,4);
           for($i=0;$i<count($var);$i++)
           {
-
             echo "index=$i value=$var[$i]";
             echo "<br>";
           }
           ?>
-          <h2>Object</h2>
-          <?php
-          class message
-          {
-            
-            function disp()
-            {
         
-              echo "Hello";
-                
-            }
-          }
-            $obj=new message;
-            $obj->disp();
-           ?> 
-         <h2>Null</h2>
-         <?php
-           $var1=null;
-          echo var_dump($var1);
-          ?> 
-         
 </body>
-</html>
-
-        
-
-
-         
-        
-         
-
-         
-        
-         
-        
-         
-
-     
-        
+</html>        

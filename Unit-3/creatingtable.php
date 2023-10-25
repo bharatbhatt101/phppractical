@@ -9,16 +9,16 @@
      
     <?php
         
-        $CONNECTION=mysqli_connect("localhost","root","obeygod","base6");
+        $CONNECTION=mysqli_connect("localhost","root","obeygod","detalis");
         if(!$CONNECTION)
         {
             die("Couldn't connect to server");
         }
         echo "Connected Successfully<br><br>";
          
-        $sql_query="CREATE TABLE Stud(
-            Roll int primary key,
-            Stu_name varchar(20))";
+        $sql_query="CREATE TABLE Student(
+            Roll_no int primary key,
+            Stud_name varchar(20))";
         mysqli_query($CONNECTION,$sql_query);
         mysqli_close($CONNECTION);
         if(!$sql_query)
@@ -32,11 +32,3 @@
 
 </body>
 </html>
-        
-
-    
-        
-
-
-
-

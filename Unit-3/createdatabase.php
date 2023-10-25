@@ -16,7 +16,7 @@
         }
         echo "Connected Successfully<br><br>";
          
-        $sql_query="CREATE DATABASE base6";
+        $sql_query="CREATE DATABASE Detalis";
         mysqli_query($CONNECTION,$sql_query);
         mysqli_close($CONNECTION);
         if(!$sql_query)
@@ -30,11 +30,3 @@
 
 </body>
 </html>
-        
-
-    
-        
-
-
-
-

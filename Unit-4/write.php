@@ -14,7 +14,7 @@
 
         echo "<b>Content in file:</b><br><br>";
          $file_handle=fopen("hello.txt","w");
-         echo fwrite($file_handle,"Welcome to PHP programming.<br>Hello world.<br>Content write in file");
+         echo fwrite($file_handle,"Welcome to PHP programming.<br>Hello world.<br>Lets write Something");
          fclose($file_handle);
       
         
@@ -23,11 +23,3 @@
     ?>
 </body>
 </html>
-        
-
-    
-        
-
-
-
-

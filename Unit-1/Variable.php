@@ -15,7 +15,7 @@
          echo "Side of square is: $a<br>";
          echo "Area of square: $area_square";
 
-?>
+         ?>
     <h2>Reassigning Variables</h2>
     <?php
          

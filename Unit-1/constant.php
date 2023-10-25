@@ -11,20 +11,13 @@
          define("MESSAGE","Hello!This is PHP programming");
          echo MESSAGE;
          echo "<br>";
-        
-         
-
-         ?>
-
-<h2>Const keyword example</h2>
+        ?>
+        <h2>Const keyword example</h2>
         <?php
          const message="Hello!This is PHP programming";
          echo message;
          
-        
-         
-
-         ?>
+        ?>
          
     
 

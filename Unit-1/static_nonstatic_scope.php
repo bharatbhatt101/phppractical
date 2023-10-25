@@ -23,7 +23,7 @@
        test_svar();
          
 
-?>
+     ?>
     <h2>Non static  scope of a variable</h2>
     
     <?php
@@ -40,6 +40,6 @@
          test_nsvar();
          test_nsvar();
 
-?>
+      ?>
 </body>
 </html>

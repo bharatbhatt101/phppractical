@@ -1,12 +1,12 @@
-<!--Delete A Cookie-->
+<!--Delete A Session-->
 <html>
 <head>
-    <title>Delete A Cookie</title>
+    <title>Delete A Session</title>
     
 </head>
 
 <body>
-    <h2>DELETE A COOKIE</h2>
+    <h2>DELETE A Session</h2>
      
     <?php
 
@@ -25,11 +25,3 @@
 
 </body>
 </html>
-        
-
-    
-        
-
-
-
-

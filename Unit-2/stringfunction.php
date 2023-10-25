@@ -5,7 +5,7 @@
     <title>String Functions</title>
 </head>
 <body>
- <?php
+   <?php
  
     echo "<h2>Strrev() function</h2><br>";
     
@@ -29,7 +29,6 @@
      echo "$text<br>";
     echo "After replacement:<br>";
     echo str_replace("Hello","Bye",$text);
-    
-?>       
+    ?>       
 </body>
 </html>
